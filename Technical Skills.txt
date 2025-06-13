@@ -1,0 +1,56 @@
+Technical Skills
+
+<section class="skills__container section__container">
+  <h2 class="portfolio-title"><span>TECHNICAL</span> SKILLS</h2>
+  <div class="skills__grid">
+    <div class="skill__item"><img src="icons/php.svg" alt="PHP"><p>PHP</p></div>
+    <div class="skill__item"><img src="icons/laravel.svg" alt="Laravel"><p>Laravel</p></div>
+    <div class="skill__item"><img src="icons/javascript.svg" alt="JavaScript"><p>JavaScript</p></div>
+    <div class="skill__item"><img src="icons/nextjs.svg" alt="Next.js"><p>Next.js</p></div>
+    <div class="skill__item"><img src="icons/vuejs.svg" alt="Vue.js"><p>Vue.js</p></div>
+    <div class="skill__item"><img src="icons/java.svg" alt="Java"><p>Java</p></div>
+    <div class="skill__item"><img src="icons/git.svg" alt="Git"><p>Git</p></div>
+    <div class="skill__item"><img src="icons/database.svg" alt="Database"><p>Database</p></div>
+    <div class="skill__item"><img src="icons/api.svg" alt="RESTful API"><p>RESTful API</p></div>
+    <div class="skill__item"><img src="icons/docker.svg" alt="Docker"><p>Docker</p></div>
+    <div class="skill__item"><img src="icons/cicd.svg" alt="CI/CD"><p>CI/CD</p></div>
+    <div class="skill__item"><img src="icons/deploy.svg" alt="Deployment"><p>Deployment</p></div>
+  </div>
+</section>
+
+
+
+.skills__container {
+  padding: 4rem 1rem;
+  background-image: var(--gradient-1);
+  color: var(--white);
+}
+
+.skills__grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.skill__item {
+  text-align: center;
+  color: #facc15; /* Kuning */
+}
+
+.skill__item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+}
+
+.skill__item p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
